@@ -1,0 +1,38 @@
+{
+  "name": "fullstackreact",
+  "version": "1.0.0",
+  "description": "Environment set ups for a full stack react development",
+  "main": "lib/server.js",
+  "repository": "https://github.com/seanliu2012/fullstackreact",
+  "author": "'Sean <'sean.liu@myob.com'>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node lib/server.js",
+    "webpack": "webpack -wd"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^3.6.0"
+  }
+}
