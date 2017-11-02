@@ -73,7 +73,7 @@ Update `package.json` for bundling via webpack.
 ```
 
 ### Tests
-Add packages for using react and webpack.
+Add `jest` for unit testing.
 ```shell
 yarn add --dev jest
 ```
